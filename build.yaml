@@ -20,6 +20,4 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: bento44_left
-  - board: nice_nano_v2
-    shield: bento44_right
+    shield: ["bento44_left", "bento44_right"]
