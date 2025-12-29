@@ -1,0 +1,5 @@
+config SHIELD_BENTO44_LEFT
+    def_bool $(shields_list_contains, bento44_left)
+
+config SHIELD_BENTO44_RIGHT
+    def_bool $(shields_list_contains, bento44_right)

@@ -1,0 +1,16 @@
+if SHIELD_BENTO44_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "bento44"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_BENTO44_LEFT || SHIELD_BENTO44_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
